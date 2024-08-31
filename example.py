@@ -1,5 +1,4 @@
-import GOntoSim
-from goatools.obo_parser import GODag
+import GOntoSim as GOntoSim
 from goatools.base import get_godag
 go = get_godag("go-basic.obo", optional_attrs={'relationship'})
 
